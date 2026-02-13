@@ -1,4 +1,4 @@
-const CACHE_NAME = 'mp-averias-v2'; // Cambiamos a v2 para forzar actualización
+const CACHE_NAME = 'mp-averias-v3'; // Cambiamos a v3 para forzar actualización
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
@@ -40,4 +40,5 @@ self.addEventListener('fetch', (e) => {
       return response || fetch(e.request);
     })
   );
+
 });
